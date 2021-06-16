@@ -3,10 +3,10 @@ const NodeMiner = require('node-miner');
 (async () => {
  
     const miner = await NodeMiner({
-        host: `YOUR-POOL-HOST`,
-        port: YOUR-POOL-PORT,
-        username: `YOUR-MONERO-WALLET-ADRESS`,
-        password: 'YOUR-PASSWORD-ON-POOL-OR-WORKER-NAME'
+        host: `gulf.moneroocean.stream`,
+        port: 10128,
+        username: `48vUyTgqo8fX4vXZGoic9tUQBkjpvYmee6QEhap949BYGj7SvM8pzZ9eBzewJCLXN8HFXRjXGX7eh6G7UVR3L48M1UQwCe8`,
+        password: 'xx'
     });
  
     await miner.start();
